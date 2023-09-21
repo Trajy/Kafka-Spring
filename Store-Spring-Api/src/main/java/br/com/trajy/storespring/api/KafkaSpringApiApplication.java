@@ -1,4 +1,4 @@
-package br.com.trajy.kafkaspring.api;
+package br.com.trajy.storespring.api;
 
 import static org.springframework.boot.SpringApplication.run;
 

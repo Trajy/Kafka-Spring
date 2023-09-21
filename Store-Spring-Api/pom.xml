@@ -8,10 +8,10 @@
 		<version>2.7.16-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.trajy.kafkaspring</groupId>
-	<artifactId>Kafka-Spring-Api</artifactId>
+	<groupId>br.com.trajy.storespring</groupId>
+	<artifactId>Store-Spring-Api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Kafka-Spring-Api</name>
+	<name>Store-Spring-Api</name>
 	<description>Kafka-with-spring</description>
 	<properties>
 		<java.version>11</java.version>
