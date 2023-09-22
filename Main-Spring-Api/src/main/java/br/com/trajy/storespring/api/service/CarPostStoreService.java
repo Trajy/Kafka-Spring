@@ -1,8 +1,8 @@
-package br.com.trajy.mainspring.api.service;
+package br.com.trajy.storespring.api.service;
 
-import br.com.trajy.mainspring.api.client.CarPostStoreClient;
-import br.com.trajy.mainspring.api.message.KafkaProducerMessage;
-import br.com.trajy.mainspring.api.model.dto.CarPostDto;
+import br.com.trajy.storespring.api.client.CarPostStoreClient;
+import br.com.trajy.storespring.api.message.KafkaProducerMessage;
+import br.com.trajy.storespring.api.model.dto.CarPostDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

@@ -1,20 +1,18 @@
-package br.com.trajy.mainspring.api.controller;
+package br.com.trajy.storespring.api.controller;
 
 import static org.springframework.http.ResponseEntity.noContent;
 
-import br.com.trajy.mainspring.api.model.dto.OwnerPostDto;
-import br.com.trajy.mainspring.api.service.CarPostStoreService;
-import br.com.trajy.mainspring.api.service.OwnerPostService;
+import br.com.trajy.storespring.api.model.dto.OwnerPostDto;
+import br.com.trajy.storespring.api.service.OwnerPostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/owners")
+@RequestMapping("/users")
 @RequiredArgsConstructor
 public class OwnerPostController {
 

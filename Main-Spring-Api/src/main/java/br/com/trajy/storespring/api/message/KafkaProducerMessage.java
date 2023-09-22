@@ -1,6 +1,6 @@
-package br.com.trajy.mainspring.api.message;
+package br.com.trajy.storespring.api.message;
 
-import br.com.trajy.mainspring.api.model.dto.CarPostDto;
+import br.com.trajy.storespring.api.model.dto.CarPostDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;

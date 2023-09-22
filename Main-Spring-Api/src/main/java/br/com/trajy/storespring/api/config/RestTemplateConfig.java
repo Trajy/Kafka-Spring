@@ -1,4 +1,4 @@
-package br.com.trajy.mainspring.api.config;
+package br.com.trajy.storespring.api.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

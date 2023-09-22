@@ -1,4 +1,4 @@
-package br.com.trajy.mainspring.api.model.dto;
+package br.com.trajy.storespring.api.model.dto;
 
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 

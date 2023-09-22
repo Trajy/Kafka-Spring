@@ -1,10 +1,10 @@
-package br.com.trajy.mainspring.api.controller;
+package br.com.trajy.storespring.api.controller;
 
 import static org.springframework.http.ResponseEntity.noContent;
 import static org.springframework.http.ResponseEntity.ok;
 
-import br.com.trajy.mainspring.api.model.dto.CarPostDto;
-import br.com.trajy.mainspring.api.service.CarPostStoreService;
+import br.com.trajy.storespring.api.model.dto.CarPostDto;
+import br.com.trajy.storespring.api.service.CarPostStoreService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

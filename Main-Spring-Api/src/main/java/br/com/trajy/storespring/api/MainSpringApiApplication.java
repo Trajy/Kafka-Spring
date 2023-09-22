@@ -1,4 +1,4 @@
-package br.com.trajy.mainspring.api;
+package br.com.trajy.storespring.api;
 
 import static org.springframework.boot.SpringApplication.run;
 
