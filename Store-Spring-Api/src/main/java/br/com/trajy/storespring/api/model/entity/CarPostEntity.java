@@ -1,7 +1,6 @@
 package br.com.trajy.storespring.api.model.entity;
 
 import static javax.persistence.CascadeType.ALL;
-import static javax.persistence.FetchType.LAZY;
 
 import lombok.Data;
 import lombok.Getter;

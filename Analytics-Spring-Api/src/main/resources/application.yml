@@ -1,13 +1,13 @@
 server:
-  port: 8086
+  port: 8087
 
 spring:
   application:
-    name: store-api
+    name: analytics-api
 
   # database properties
   datasource:
-    url: jdbc:postgresql://localhost:5432/car_post_storage
+    url: jdbc:postgresql://localhost:5432/car_post_analytics
     username: postgres
     password: postgres
   jpa:
@@ -24,7 +24,7 @@ spring:
   kafka:
     consumer:
       bootstrap-servers: localhost:19092
-      group-id: api-store-group
+      group-id: api-analytics_group
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
